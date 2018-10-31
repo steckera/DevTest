@@ -125,7 +125,7 @@ p{
 }
 
 #banner{
-  background-image: url("DevTest/images/image1.png");
+  background-image: url("images/image1.png");
   background-size: 100%;
   overflow: hidden;
   background-position: 0px 0px;
@@ -207,7 +207,7 @@ p{
     margin-left: 2%;
     margin-right: 2%;
     margin-top: 0%;
-    background-image: url(DevTest/images/image2.png);
+    background-image: url(images/image2.png);
     background-repeat: no-repeat;
     background-position: center;
 }
