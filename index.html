@@ -253,7 +253,7 @@
 					this.value = ' ';
 					
 					this.value.addEventListener("change", function validateField(){
-						var exp = [A-Za-z]g;
+						var exp = /A-Za-z/g;
 						var valid = this.value.test(exp);
 						if (valid = true){
 							originVal = this.value;
