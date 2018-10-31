@@ -254,7 +254,8 @@
 					
 					this.value.addEventListener("change", function validateField(){
 						var exp = [A-Za-z];
-						var valid = this.value.test(exp);
+						var str = this.value;
+						var valid = str.test(exp);
 						if (valid = true){
 							originVal = this.value;
 						}
