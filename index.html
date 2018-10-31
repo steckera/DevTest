@@ -257,8 +257,12 @@
 						var str = this.value;
 						var valid = str.test(exp);
 						if (valid == true){
-							originVal = str;
+							var currVal = str;
 						}
+						else{
+							currVal = originVal;
+						}
+						this.value = currVal;
 					});
 					
 					console.log(originVal);
