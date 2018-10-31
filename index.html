@@ -257,7 +257,7 @@
 				anchor.addEventListener("change", function validateField(){
 					var exp = /\A-za-z/g;
 					var str = this.value;
-					var valid = str.test(exp);
+					var valid = exp.test(str);
 					if (valid == true){
 						currVal = str;
 					}
