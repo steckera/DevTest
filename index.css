@@ -5,6 +5,20 @@ html{
   height: 100%;
 }
 
+@media only screen and (max-width: 600px) {
+    body {
+        width: 100%;
+    }
+	
+	.contentDiv{
+	  min-height: 16%;
+	  width: 100%;
+	  margin: 0;
+	  padding: 0;
+	  background-color: #FFFFFF;
+	}
+}
+
 body{
   width: 90%;
   height:100%;
