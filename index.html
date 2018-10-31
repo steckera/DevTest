@@ -252,18 +252,18 @@
 					originVal = this.value;
 					this.value = ' ';
 					
-					anchor.addEventListener("change", function validateField(){
-						var exp = [A-Za-z];
-						var str = this.value;
-						var valid = str.test(exp);
-						if (valid == true){
-							var currVal = str;
-						}
-						else{
-							currVal = originVal;
-						}
-						this.value = currVal;
-					});
+				anchor.addEventListener("change", function validateField(){
+					var exp = [A-Za-z];
+					var str = this.value;
+					var valid = str.test(exp);
+					if (valid == true){
+						var currVal = str;
+					}
+					else{
+						currVal = originVal;
+					}
+					this.value = currVal;
+				});
 					
 					console.log(originVal);
 				});
