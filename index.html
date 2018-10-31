@@ -250,14 +250,15 @@
 				var anchor = anchors[i];
 				anchor.addEventListener('focus', function clearField(){
 					originVal = this.value;
+          				currVal = this.value;
 					this.value = ' ';
 					
 				anchor.addEventListener("change", function validateField(){
-					var exp = [A-Za-z];
+					var exp = /\A-za-z/g;
 					var str = this.value;
 					var valid = str.test(exp);
 					if (valid == true){
-						var currVal = str;
+						currVal = str;
 					}
 					else{
 						currVal = originVal;
@@ -276,7 +277,7 @@
 						}
 					});
 			}
-		};		
+		};			
 		
 	</script>
 
