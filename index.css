@@ -125,7 +125,7 @@ p{
 }
 
 #banner{
-  background-image: url("C:/Users/Owner/Desktop/Office Things/Signs/frontendassets/FrontendTest/Images/image1.png");
+  background-image: url("/images/image1.png");
   background-size: 100%;
   overflow: hidden;
   background-position: 0px 0px;
@@ -207,7 +207,7 @@ p{
     margin-left: 2%;
     margin-right: 2%;
     margin-top: 0%;
-    background-image: url(C:/Users/Owner/Desktop/Office%20Things/Signs/frontendassets/FrontendTest/images/image2.png);
+    background-image: url(/images/image2.png);
     background-repeat: no-repeat;
     background-position: center;
 }
