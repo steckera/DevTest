@@ -129,7 +129,9 @@ p{
   background-size: 100%;
   overflow: hidden;
   background-position: 0px 0px;
+}
 
+.animateHero{
   animation-duration: 4s;
   animation-name: zoomHero;
   animation-iteration-count: infinite;
