@@ -119,9 +119,7 @@ p{
 }
 
 .navWords{
-  float: left;
-  margin-top: 0%;
-  margin-left: 3%;
+  display: none;
 }
 
 #banner{
