@@ -200,7 +200,7 @@ p{
 }
 
 #sonderGuy{
-  /*width: 46%;*/
+  /*width: 46%;
     height: -webkit-fill-available;
     margin-bottom: 0;
     margin-left: 2%;
@@ -208,7 +208,8 @@ p{
     margin-top: 0%;
     background-image: url(images/image2.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center;*/
+  display: none;
 }
 
 #sonderGuyBio{
@@ -315,12 +316,14 @@ p{
 }
 
 #slider-arrows{
-  margin-left: 45%;
-  margin-right: 45%;
+  display: none;
+  /*margin-left: 45%;
+  margin-right: 45%;*/
 }
 
 #slider-arrows img{
-  margin: 2%;
+  /*margin: 2%;*/
+  display: none;
 }
 
 #map {
@@ -379,19 +382,11 @@ p{
 }
 
 #formImageHolder{
-  width:0;
-  margin:0;
-  padding:0;
-  border: none;
+  display: none;
 }
 
 #formPic{
-	width: 0;
-	height: 0;
-	margin: 0;
-	padding: 0;
-	border: none;
-	padding-left: 0;
+	display: none;
 }
 
 #contactButt{
@@ -399,7 +394,7 @@ p{
     color: #68C242;
     text-align: center;
     padding-top: 0;
-	padding-bottom:1%;
+    padding-bottom:1%;
     margin-top: 0;
     position: absolute;
     width: 13%;
