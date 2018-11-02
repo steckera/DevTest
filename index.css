@@ -370,8 +370,7 @@ p{
 }
 
 #comments{
-	padding: unset;
-    padding-left: 50.5%;
+    padding: unset;
     padding-bottom: 15%;
     margin-top: 5%;
     margin-bottom: 5%;	
@@ -417,6 +416,7 @@ p{
 }
 
 #footer{
+    display: none;
     background-color: #001D5D;
     color: #FFFFFF;
     width: 100%;
