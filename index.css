@@ -44,7 +44,6 @@ p{
 }
 
 #logo{
-  position: absolute;
   padding: unset;
 }
 
@@ -62,10 +61,8 @@ p{
   min-height: unset;
   padding-top: 3%;
   vertical-align: middle;
-}
-
-#home{
-  margin-left: 20%;
+  display: flex;
+  justify-content: center;
 }
 
 #subscribe{
@@ -76,9 +73,7 @@ p{
     text-align: center;
     padding-top: 0;
     margin-top: 0;
-    position: absolute;
     width: 10%;
-    margin-left: 80%;
     height: 5%;
 }
 
