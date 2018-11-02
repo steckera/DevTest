@@ -17,28 +17,28 @@ body{
 
 h1{
   font-family: 'Karla', sans-serif;
-  font-size: 40px;
+  font-size: .029vw;
   font-weight: bold;
   color: #001D5D;
 }
 
 h2{
   font-family: 'Karla', sans-serif;
-  font-size: 30px;
+  font-size: .022vw;
   font-weight: bold;
   color: #001D5D;
 }
 
 h3{
   font-family: 'Karla', sans-serif;
-  font-size: 16px;
+  font-size: .012vw;
   font-weight: bold;
   color: #68C242;
 }
 
 p{
   font-family: 'Karla', sans-serif;
-  font-size: 16px;
+  font-size: .012vw;
   font-weight: normal;
   line-height: 1.5;
 }
