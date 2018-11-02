@@ -181,13 +181,17 @@ p{
 }
 
 #bio{
-  display: inline-flex;
+  display: flex;
   padding-top: 4%;
   padding-bottom: 4%;
 }
 
 #bio h1{
   color: #001D5D;
+}
+
+.cols{
+  flex: 1; 
 }
 
 #bio p{
