@@ -207,6 +207,7 @@ p{
     background-image: url(images/image2.png);
     background-repeat: no-repeat;
     background-position: center;
+  object-fit:contain;
 }
 
 #sonderGuyBio{
